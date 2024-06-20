@@ -1,0 +1,26 @@
+body {
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+  font-family: GameFont;
+  src: url("mplus-1m-regular.ttf");
+}
+
+#gameContainer {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+  @media (max-width: 768px) {
+    #gameContainer {
+        margin: 0 auto;
+    }
+  }
